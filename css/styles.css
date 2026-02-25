@@ -608,6 +608,12 @@
             box-shadow: 0 4px 15px rgba(232, 180, 184, 0.3);
         }
 
+        #booking {
+           padding: 80px 20px;
+           background: #f8f8f8;
+           text-align: center;
+  }
+
         /* ================================
            TESTIMONIALS SECTION
            ================================ */

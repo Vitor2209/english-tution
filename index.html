@@ -1,28 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>English Tuition - Learn British English with Confidence</title>
-    
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
     <!-- NAVBAR -->
     <nav class="navbar" id="navbar">
         <div class="navbar-container">
             <div class="navbar-logo">
                 <svg class="navbar-flag" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 40">
-                    <defs><clipPath id="t"><path d="M30,15 h30 v15 z v15 h-30 z h-30 v-15 z v-15 h30 z"/></clipPath></defs>
-                    <path d="M0,0 v40 h60 v-40 z" fill="#012169"/>
-                    <path d="M0,0 L60,40 M60,0 L0,40" stroke="#fff" stroke-width="8"/>
-                    <path d="M0,0 L60,40 M60,0 L0,40" clip-path="url(#t)" stroke="#C8102E" stroke-width="5"/>
-                    <path d="M30,0 v40 M0,20 h60" stroke="#fff" stroke-width="13.333"/>
-                    <path d="M30,0 v40 M0,20 h60" stroke="#C8102E" stroke-width="8"/>
+                    <defs>
+                        <clipPath id="t">
+                            <path d="M30,15 h30 v15 z v15 h-30 z h-30 v-15 z v-15 h30 z" />
+                        </clipPath>
+                    </defs>
+                    <path d="M0,0 v40 h60 v-40 z" fill="#012169" />
+                    <path d="M0,0 L60,40 M60,0 L0,40" stroke="#fff" stroke-width="8" />
+                    <path d="M0,0 L60,40 M60,0 L0,40" clip-path="url(#t)" stroke="#C8102E" stroke-width="5" />
+                    <path d="M30,0 v40 M0,20 h60" stroke="#fff" stroke-width="13.333" />
+                    <path d="M30,0 v40 M0,20 h60" stroke="#C8102E" stroke-width="8" />
                 </svg>
                 <span class="navbar-brand">English Tuition</span>
             </div>
@@ -57,11 +65,12 @@
                 <a href="#home" class="mobile-menu-link" data-i18n="home" onclick="toggleMobileMenu()">Home</a>
                 <a href="#about" class="mobile-menu-link" data-i18n="about" onclick="toggleMobileMenu()">About</a>
                 <a href="#courses" class="mobile-menu-link" data-i18n="courses" onclick="toggleMobileMenu()">Courses</a>
-                <a href="#testimonials" class="mobile-menu-link" data-i18n="testimonials" onclick="toggleMobileMenu()">Testimonials</a>
+                <a href="#testimonials" class="mobile-menu-link" data-i18n="testimonials"
+                    onclick="toggleMobileMenu()">Testimonials</a>
                 <a href="#contact" class="mobile-menu-link" data-i18n="contact" onclick="toggleMobileMenu()">Contact</a>
-                
+
                 <div class="mobile-menu-divider"></div>
-                
+
                 <div class="mobile-language-switcher">
                     <button onclick="changeLanguage('en')" data-lang="en">EN</button>
                     <span>|</span>
@@ -69,7 +78,7 @@
                     <span>|</span>
                     <button onclick="changeLanguage('es')" data-lang="es">ES</button>
                 </div>
-                
+
                 <button class="support-button" onclick="openWhatsApp()" style="width: 100%;">
                     <span>💬</span>
                     <span data-i18n="support">Support</span>
@@ -84,21 +93,20 @@
             <div class="floral-decoration floral-left"></div>
             <div class="floral-decoration floral-right"></div>
         </div>
-        
+
         <div class="hero-container">
             <div class="hero-content">
                 <h1 class="hero-title" data-i18n="heroTitle">Learn British English with Confidence</h1>
-                <p class="hero-subtitle" data-i18n="heroSubtitle">I'm a certified British English teacher based in London.</p>
-                <button class="hero-button" onclick="scrollToSection('contact')" data-i18n="heroCTA">Start Your Free Lesson</button>
+                <p class="hero-subtitle" data-i18n="heroSubtitle">I'm a certified British English teacher based in
+                    London.</p>
+                <button class="hero-button" onclick="scrollToSection('contact')" data-i18n="heroCTA">Start Your Free
+                    Lesson</button>
             </div>
 
             <div class="hero-image-wrapper">
                 <div class="hero-image-circle"></div>
-                <img 
-                    src="https://images.pexels.com/photos/6503001/pexels-photo-6503001.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-                    alt="English Teacher"
-                    class="hero-image"
-                />
+                <img src="https://images.pexels.com/photos/6503001/pexels-photo-6503001.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                    alt="English Teacher" class="hero-image" />
             </div>
         </div>
     </section>
@@ -107,19 +115,17 @@
     <section id="about">
         <div class="container">
             <h2 class="section-title" data-i18n="aboutTitle">About</h2>
-            
+
             <div class="about-content">
                 <div class="about-image-wrapper">
-                    <img 
-                        src="https://images.unsplash.com/photo-1758685845906-6f705cde4fb7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1MDZ8MHwxfHNlYXJjaHwzfHxwcm9mZXNzaW9uYWwlMjB0ZWFjaGVyJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzcxNTAyNTE1fDA&ixlib=rb-4.1.0&q=85"
-                        alt="Teacher Profile"
-                        class="about-image"
-                    />
+                    <img src="https://images.unsplash.com/photo-1758685845906-6f705cde4fb7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1MDZ8MHwxfHNlYXJjaHwzfHxwcm9mZXNzaW9uYWwlMjB0ZWFjaGVyJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzcxNTAyNTE1fDA&ixlib=rb-4.1.0&q=85"
+                        alt="Teacher Profile" class="about-image" />
                 </div>
 
                 <div class="about-text">
-                    <p class="about-intro" data-i18n="aboutIntro">I'm a certified British English teacher based in London.</p>
-                    
+                    <p class="about-intro" data-i18n="aboutIntro">I'm a certified British English teacher based in
+                        London.</p>
+
                     <div class="about-certifications">
                         <div class="certification-item">
                             <span class="cert-icon">✓</span>
@@ -139,7 +145,8 @@
                         <div class="feature-card">
                             <div class="feature-icon">🏆</div>
                             <h4 data-i18n="aboutFeature1Title">Professional Methodology</h4>
-                            <p data-i18n="aboutFeature1Desc">Personalized lessons tailored to your goals and learning style.</p>
+                            <p data-i18n="aboutFeature1Desc">Personalized lessons tailored to your goals and learning
+                                style.</p>
                         </div>
                         <div class="feature-card">
                             <div class="feature-icon">⏰</div>
@@ -156,79 +163,96 @@
     <section id="courses">
         <div class="container">
             <h2 class="section-title" data-i18n="coursesTitle">Our Courses</h2>
-            <p class="section-subtitle" data-i18n="coursesSubtitle">Choose the perfect course for your learning journey</p>
-            
+            <p class="section-subtitle" data-i18n="coursesSubtitle">Choose the perfect course for your learning journey
+            </p>
+
             <div class="courses-grid">
                 <!-- Course 1 -->
                 <div class="course-card">
                     <div class="course-icon">📖</div>
                     <h3 class="course-title" data-i18n="course1Title">Conversation Practice</h3>
-                    <p class="course-description" data-i18n="course1Desc">Improve your fluency with engaging conversation sessions focused on real-life topics.</p>
+                    <p class="course-description" data-i18n="course1Desc">Improve your fluency with engaging
+                        conversation sessions focused on real-life topics.</p>
                     <div class="course-details">
                         <div class="course-detail-item">
                             <span>⏱</span>
-                            <span><span data-i18n="duration">Duration</span>: <span data-i18n="course1Duration">50 minutes</span></span>
+                            <span><span data-i18n="duration">Duration</span>: <span data-i18n="course1Duration">50
+                                    minutes</span></span>
                         </div>
                         <div class="course-detail-item">
                             <span>📊</span>
-                            <span><span data-i18n="level">Level</span>: <span data-i18n="course1Level">All levels</span></span>
+                            <span><span data-i18n="level">Level</span>: <span data-i18n="course1Level">All
+                                    levels</span></span>
                         </div>
                     </div>
-                    <button class="course-button" onclick="scrollToSection('contact')" data-i18n="bookLesson">Book Lesson</button>
+                    <button class="course-button" onclick="scrollToSection('contact')" data-i18n="bookLesson">Book
+                        Lesson</button>
                 </div>
 
                 <!-- Course 2 -->
                 <div class="course-card">
                     <div class="course-icon">💼</div>
                     <h3 class="course-title" data-i18n="course2Title">Business English</h3>
-                    <p class="course-description" data-i18n="course2Desc">Master professional English for meetings, presentations, and workplace communication.</p>
+                    <p class="course-description" data-i18n="course2Desc">Master professional English for meetings,
+                        presentations, and workplace communication.</p>
                     <div class="course-details">
                         <div class="course-detail-item">
                             <span>⏱</span>
-                            <span><span data-i18n="duration">Duration</span>: <span data-i18n="course2Duration">60 minutes</span></span>
+                            <span><span data-i18n="duration">Duration</span>: <span data-i18n="course2Duration">60
+                                    minutes</span></span>
                         </div>
                         <div class="course-detail-item">
                             <span>📊</span>
-                            <span><span data-i18n="level">Level</span>: <span data-i18n="course2Level">Intermediate+</span></span>
+                            <span><span data-i18n="level">Level</span>: <span
+                                    data-i18n="course2Level">Intermediate+</span></span>
                         </div>
                     </div>
-                    <button class="course-button" onclick="scrollToSection('contact')" data-i18n="bookLesson">Book Lesson</button>
+                    <button class="course-button" onclick="scrollToSection('contact')" data-i18n="bookLesson">Book
+                        Lesson</button>
                 </div>
 
                 <!-- Course 3 -->
                 <div class="course-card">
                     <div class="course-icon">🎓</div>
                     <h3 class="course-title" data-i18n="course3Title">Exam Preparation</h3>
-                    <p class="course-description" data-i18n="course3Desc">Prepare for IELTS, Cambridge, or other English proficiency exams with confidence.</p>
+                    <p class="course-description" data-i18n="course3Desc">Prepare for IELTS, Cambridge, or other English
+                        proficiency exams with confidence.</p>
                     <div class="course-details">
                         <div class="course-detail-item">
                             <span>⏱</span>
-                            <span><span data-i18n="duration">Duration</span>: <span data-i18n="course3Duration">60 minutes</span></span>
+                            <span><span data-i18n="duration">Duration</span>: <span data-i18n="course3Duration">60
+                                    minutes</span></span>
                         </div>
                         <div class="course-detail-item">
                             <span>📊</span>
-                            <span><span data-i18n="level">Level</span>: <span data-i18n="course3Level">All levels</span></span>
+                            <span><span data-i18n="level">Level</span>: <span data-i18n="course3Level">All
+                                    levels</span></span>
                         </div>
                     </div>
-                    <button class="course-button" onclick="scrollToSection('contact')" data-i18n="bookLesson">Book Lesson</button>
+                    <button class="course-button" onclick="scrollToSection('contact')" data-i18n="bookLesson">Book
+                        Lesson</button>
                 </div>
 
                 <!-- Course 4 -->
                 <div class="course-card">
                     <div class="course-icon">✍️</div>
                     <h3 class="course-title" data-i18n="course4Title">Grammar & Writing</h3>
-                    <p class="course-description" data-i18n="course4Desc">Perfect your grammar, writing skills, and formal communication.</p>
+                    <p class="course-description" data-i18n="course4Desc">Perfect your grammar, writing skills, and
+                        formal communication.</p>
                     <div class="course-details">
                         <div class="course-detail-item">
                             <span>⏱</span>
-                            <span><span data-i18n="duration">Duration</span>: <span data-i18n="course4Duration">50 minutes</span></span>
+                            <span><span data-i18n="duration">Duration</span>: <span data-i18n="course4Duration">50
+                                    minutes</span></span>
                         </div>
                         <div class="course-detail-item">
                             <span>📊</span>
-                            <span><span data-i18n="level">Level</span>: <span data-i18n="course4Level">All levels</span></span>
+                            <span><span data-i18n="level">Level</span>: <span data-i18n="course4Level">All
+                                    levels</span></span>
                         </div>
                     </div>
-                    <button class="course-button" onclick="scrollToSection('contact')" data-i18n="bookLesson">Book Lesson</button>
+                    <button class="course-button" onclick="scrollToSection('contact')" data-i18n="bookLesson">Book
+                        Lesson</button>
                 </div>
             </div>
         </div>
@@ -238,13 +262,15 @@
     <section id="teachers">
         <div class="container">
             <h2 class="section-title" data-i18n="teachersTitle">Our Teachers</h2>
-            <p class="section-subtitle" data-i18n="teachersSubtitle">Choose the team of certified and experienced English teachers ready to help you succeed.</p>
-            
+            <p class="section-subtitle" data-i18n="teachersSubtitle">Choose the team of certified and experienced
+                English teachers ready to help you succeed.</p>
+
             <div class="teachers-grid">
                 <!-- Teacher 1 -->
                 <div class="teacher-card">
                     <div class="teacher-image-wrapper">
-                        <img src="https://images.pexels.com/photos/8500408/pexels-photo-8500408.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Olivia" class="teacher-image">
+                        <img src="https://images.pexels.com/photos/8500408/pexels-photo-8500408.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                            alt="Olivia" class="teacher-image">
                     </div>
                     <div class="teacher-info">
                         <h3 class="teacher-name" data-i18n="teacher1Name">Olivia</h3>
@@ -252,15 +278,18 @@
                             <span>🇬🇧</span>
                             <span data-i18n="teacher1Cert">TEFL Certified</span>
                         </div>
-                        <p class="teacher-description" data-i18n="teacher1Desc">British, TEFL with clear accent. Books and authentic texts expert.</p>
-                        <button class="teacher-button" onclick="scrollToSection('contact')" data-i18n="bookLesson">Book Lesson</button>
+                        <p class="teacher-description" data-i18n="teacher1Desc">British, TEFL with clear accent. Books
+                            and authentic texts expert.</p>
+                        <button class="teacher-button" onclick="scrollToSection('contact')" data-i18n="bookLesson">Book
+                            Lesson</button>
                     </div>
                 </div>
 
                 <!-- Teacher 2 -->
                 <div class="teacher-card">
                     <div class="teacher-image-wrapper">
-                        <img src="https://images.unsplash.com/photo-1758685734511-4f49ce9a382b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1MDZ8MHwxfHNlYXJjaHwyfHxwcm9mZXNzaW9uYWwlMjB0ZWFjaGVyJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzcxNTAyNTE1fDA&ixlib=rb-4.1.0&q=85" alt="James" class="teacher-image">
+                        <img src="https://images.unsplash.com/photo-1758685734511-4f49ce9a382b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1MDZ8MHwxfHNlYXJjaHwyfHxwcm9mZXNzaW9uYWwlMjB0ZWFjaGVyJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzcxNTAyNTE1fDA&ixlib=rb-4.1.0&q=85"
+                            alt="James" class="teacher-image">
                     </div>
                     <div class="teacher-info">
                         <h3 class="teacher-name" data-i18n="teacher2Name">James</h3>
@@ -268,15 +297,18 @@
                             <span>🇺🇸</span>
                             <span data-i18n="teacher2Cert">TESOL Certified</span>
                         </div>
-                        <p class="teacher-description" data-i18n="teacher2Desc">American, TESOL Certified. Modern methods and cultural insights.</p>
-                        <button class="teacher-button" onclick="scrollToSection('contact')" data-i18n="bookLesson">Book Lesson</button>
+                        <p class="teacher-description" data-i18n="teacher2Desc">American, TESOL Certified. Modern
+                            methods and cultural insights.</p>
+                        <button class="teacher-button" onclick="scrollToSection('contact')" data-i18n="bookLesson">Book
+                            Lesson</button>
                     </div>
                 </div>
 
                 <!-- Teacher 3 -->
                 <div class="teacher-card">
                     <div class="teacher-image-wrapper">
-                        <img src="https://images.unsplash.com/photo-1584554376766-ac0f2c65e949?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1MDZ8MHwxfHNlYXJjaHw0fHxwcm9mZXNzaW9uYWwlMjB0ZWFjaGVyJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzcxNTAyNTE1fDA&ixlib=rb-4.1.0&q=85" alt="Emma" class="teacher-image">
+                        <img src="https://images.unsplash.com/photo-1584554376766-ac0f2c65e949?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1MDZ8MHwxfHNlYXJjaHw0fHxwcm9mZXNzaW9uYWwlMjB0ZWFjaGVyJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzcxNTAyNTE1fDA&ixlib=rb-4.1.0&q=85"
+                            alt="Emma" class="teacher-image">
                     </div>
                     <div class="teacher-info">
                         <h3 class="teacher-name" data-i18n="teacher3Name">Emma</h3>
@@ -284,15 +316,18 @@
                             <span>🇬🇧</span>
                             <span data-i18n="teacher3Cert">CELTA Certified</span>
                         </div>
-                        <p class="teacher-description" data-i18n="teacher3Desc">British, Teacher with passion to help you achieve your language goals.</p>
-                        <button class="teacher-button" onclick="scrollToSection('contact')" data-i18n="bookLesson">Book Lesson</button>
+                        <p class="teacher-description" data-i18n="teacher3Desc">British, Teacher with passion to help
+                            you achieve your language goals.</p>
+                        <button class="teacher-button" onclick="scrollToSection('contact')" data-i18n="bookLesson">Book
+                            Lesson</button>
                     </div>
                 </div>
 
                 <!-- Teacher 4 -->
                 <div class="teacher-card">
                     <div class="teacher-image-wrapper">
-                        <img src="https://images.pexels.com/photos/5212703/pexels-photo-5212703.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Sofia" class="teacher-image">
+                        <img src="https://images.pexels.com/photos/5212703/pexels-photo-5212703.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                            alt="Sofia" class="teacher-image">
                     </div>
                     <div class="teacher-info">
                         <h3 class="teacher-name" data-i18n="teacher4Name">Sofia</h3>
@@ -300,8 +335,10 @@
                             <span>🇬🇧</span>
                             <span data-i18n="teacher4Cert">CELTA Certified</span>
                         </div>
-                        <p class="teacher-description" data-i18n="teacher4Desc">Expert in British culture, and motivating learners of all ages.</p>
-                        <button class="teacher-button" onclick="scrollToSection('contact')" data-i18n="bookLesson">Book Lesson</button>
+                        <p class="teacher-description" data-i18n="teacher4Desc">Expert in British culture, and
+                            motivating learners of all ages.</p>
+                        <button class="teacher-button" onclick="scrollToSection('contact')" data-i18n="bookLesson">Book
+                            Lesson</button>
                     </div>
                 </div>
             </div>
@@ -312,15 +349,19 @@
     <section id="testimonials">
         <div class="container">
             <h2 class="section-title" data-i18n="testimonialsTitle">What Students Say</h2>
-            <p class="section-subtitle" data-i18n="testimonialsSubtitle">Real feedback from students who improved their English with us</p>
-            
+            <p class="section-subtitle" data-i18n="testimonialsSubtitle">Real feedback from students who improved their
+                English with us</p>
+
             <div class="testimonials-grid">
                 <!-- Testimonial 1 -->
                 <div class="testimonial-card">
                     <div class="quote-icon">"</div>
-                    <p class="testimonial-text" data-i18n="testimonial1Text">The lessons are incredibly engaging and I've seen huge improvements in my confidence speaking English. The British accent training was exactly what I needed!</p>
+                    <p class="testimonial-text" data-i18n="testimonial1Text">The lessons are incredibly engaging and
+                        I've seen huge improvements in my confidence speaking English. The British accent training was
+                        exactly what I needed!</p>
                     <div class="testimonial-author">
-                        <img src="https://images.pexels.com/photos/5212675/pexels-photo-5212675.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Maria Silva" class="testimonial-avatar">
+                        <img src="https://images.pexels.com/photos/5212675/pexels-photo-5212675.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                            alt="Maria Silva" class="testimonial-avatar">
                         <div class="testimonial-author-info">
                             <h4 data-i18n="testimonial1Author">Maria Silva</h4>
                             <p data-i18n="testimonial1Role">Business Professional</p>
@@ -331,9 +372,11 @@
                 <!-- Testimonial 2 -->
                 <div class="testimonial-card">
                     <div class="quote-icon">"</div>
-                    <p class="testimonial-text" data-i18n="testimonial2Text">I passed my IELTS exam with a band 8 thanks to the structured preparation and personalized feedback. Highly recommended!</p>
+                    <p class="testimonial-text" data-i18n="testimonial2Text">I passed my IELTS exam with a band 8 thanks
+                        to the structured preparation and personalized feedback. Highly recommended!</p>
                     <div class="testimonial-author">
-                        <img src="https://images.pexels.com/photos/5212321/pexels-photo-5212321.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Carlos Mendes" class="testimonial-avatar">
+                        <img src="https://images.pexels.com/photos/5212321/pexels-photo-5212321.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                            alt="Carlos Mendes" class="testimonial-avatar">
                         <div class="testimonial-author-info">
                             <h4 data-i18n="testimonial2Author">Carlos Mendes</h4>
                             <p data-i18n="testimonial2Role">University Student</p>
@@ -344,9 +387,11 @@
                 <!-- Testimonial 3 -->
                 <div class="testimonial-card">
                     <div class="quote-icon">"</div>
-                    <p class="testimonial-text" data-i18n="testimonial3Text">Flexible scheduling and patient teaching style made learning English enjoyable. My pronunciation has improved dramatically!</p>
+                    <p class="testimonial-text" data-i18n="testimonial3Text">Flexible scheduling and patient teaching
+                        style made learning English enjoyable. My pronunciation has improved dramatically!</p>
                     <div class="testimonial-author">
-                        <img src="https://images.pexels.com/photos/6503001/pexels-photo-6503001.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Ana Costa" class="testimonial-avatar">
+                        <img src="https://images.pexels.com/photos/6503001/pexels-photo-6503001.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                            alt="Ana Costa" class="testimonial-avatar">
                         <div class="testimonial-author-info">
                             <h4 data-i18n="testimonial3Author">Ana Costa</h4>
                             <p data-i18n="testimonial3Role">Marketing Manager</p>
@@ -355,6 +400,19 @@
                 </div>
             </div>
         </div>
+
+        <section id="booking">
+            <div class="container">
+                <h2>Book Your Lesson</h2>
+
+                <div class="calendly-inline-widget" data-url="https://calendly.com/contato-bitstream/30min"
+                    style="min-width:320px;height:700px;">
+                </div>
+
+            </div>
+        </section>
+
+        <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
     </section>
 
     <!-- CONTACT SECTION -->
@@ -362,7 +420,7 @@
         <div class="container">
             <h2 class="section-title" data-i18n="contactTitle">Contact Us</h2>
             <p class="section-subtitle" data-i18n="contactSubtitle">Get in touch to book your free trial lesson</p>
-            
+
             <form class="contact-form" onsubmit="handleSubmit(event)">
                 <div class="form-row">
                     <div class="form-group">
@@ -395,7 +453,8 @@
                         <span>💬</span>
                         <span data-i18n="contactMessage">Your Message</span>
                     </label>
-                    <textarea id="message" name="message" rows="5" required data-i18n-placeholder="contactMessage"></textarea>
+                    <textarea id="message" name="message" rows="5" required
+                        data-i18n-placeholder="contactMessage"></textarea>
                 </div>
 
                 <button type="submit" class="submit-button">
@@ -412,15 +471,20 @@
             <!-- About Column -->
             <div class="footer-column">
                 <h4 data-i18n="footerAbout">About Us</h4>
-                <p class="footer-tagline" data-i18n="footerTagline">Professional British English tuition based in London</p>
+                <p class="footer-tagline" data-i18n="footerTagline">Professional British English tuition based in London
+                </p>
                 <div class="footer-logo">
                     <svg class="navbar-flag" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 40">
-                        <defs><clipPath id="t2"><path d="M30,15 h30 v15 z v15 h-30 z h-30 v-15 z v-15 h30 z"/></clipPath></defs>
-                        <path d="M0,0 v40 h60 v-40 z" fill="#012169"/>
-                        <path d="M0,0 L60,40 M60,0 L0,40" stroke="#fff" stroke-width="8"/>
-                        <path d="M0,0 L60,40 M60,0 L0,40" clip-path="url(#t2)" stroke="#C8102E" stroke-width="5"/>
-                        <path d="M30,0 v40 M0,20 h60" stroke="#fff" stroke-width="13.333"/>
-                        <path d="M30,0 v40 M0,20 h60" stroke="#C8102E" stroke-width="8"/>
+                        <defs>
+                            <clipPath id="t2">
+                                <path d="M30,15 h30 v15 z v15 h-30 z h-30 v-15 z v-15 h30 z" />
+                            </clipPath>
+                        </defs>
+                        <path d="M0,0 v40 h60 v-40 z" fill="#012169" />
+                        <path d="M0,0 L60,40 M60,0 L0,40" stroke="#fff" stroke-width="8" />
+                        <path d="M0,0 L60,40 M60,0 L0,40" clip-path="url(#t2)" stroke="#C8102E" stroke-width="5" />
+                        <path d="M30,0 v40 M0,20 h60" stroke="#fff" stroke-width="13.333" />
+                        <path d="M30,0 v40 M0,20 h60" stroke="#C8102E" stroke-width="8" />
                     </svg>
                     <span>English Tuition</span>
                 </div>
@@ -481,4 +545,5 @@
     <!-- JAVASCRIPT -->
     <script src="js/app.js"></script>
 </body>
+
 </html>
